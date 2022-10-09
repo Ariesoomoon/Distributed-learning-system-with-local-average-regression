@@ -27,7 +27,7 @@ Considerations when running the code:
 
    If different folders call function.py with the same name, such as function_same_block.py, call confusion will occur. Therefore, remember to cancel the 'Sources Root' of the temporarily unused folder (by right click on the current folder --> Mark Directory as --> Unmark as Sources Root).
 
-2. Select [Function_same_block.py](Function_same_block.py)  or [Function_diff_block.py](Function_diff_block.py)  depending on the data sizes owned by local agents when runing each .py in the file [Algorithm](Algorithm) and  [Parameter_training](Parameter_training). Specifically, if the amount of data held by the local agents is the same (equal-sized setting), select Function_same_block.py, otherwise, select the Function_diff_block.py.
+2. Select [Function_same_block.py](Function_same_block.py)  or [Function_diff_block.py](Function_diff_block.py)  depending on the data sizes owned by local agents when runing each .py in the file [Algorithm](Algorithm) and  [Parameter_training](Parameter_training). Specifically, if the amount of data held by the local agents is the same (equal-sized setting), select Function_same_block.py, otherwise, select the Function_diff_block.py (unequal-sized setting).
 
 3. Adjust the specific algorithm NWK(gaussian),NWK(naive), NWK(Epanechnikov), corresponding to GE_gaussiank, GE_naivek, GE_Epank in [Function_same_block.py](Function_same_block.py)  and [Function_diff_block.py](Function_diff_block.py)  when training localization parameters by each .py in the file [Parameter training](Parameter training).
 
